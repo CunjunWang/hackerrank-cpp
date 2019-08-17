@@ -3,13 +3,14 @@
 //
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 void plusMinus(vector<int> arr) {
-    int posCount = 0;
-    int negCount = 0;
-    int zeroCount = 0;
+    double posCount = 0;
+    double negCount = 0;
+    double zeroCount = 0;
     int size = arr.size();
     for (int i : arr) {
         if (i > 0) {

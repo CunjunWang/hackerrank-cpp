@@ -1,7 +1,6 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-17.
+//
 
 // Complete the staircase function below.
 void staircase(int n) {
@@ -14,8 +13,4 @@ void staircase(int n) {
         }
         cout << "" << endl;
     }
-}
-
-int main() {
-    staircase(5);
 }
