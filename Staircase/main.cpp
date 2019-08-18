@@ -2,6 +2,11 @@
 // Created by 王存俊 on 2019-08-17.
 //
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 // Complete the staircase function below.
 void staircase(int n) {
     for (int i = 0; i < n; i++) {

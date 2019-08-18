@@ -1,7 +1,6 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
+//
+// Created by 王存俊 on 2019-08-17.
+//
 
 // Complete the countApplesAndOranges function below.
 void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vector<int> oranges) {
@@ -23,8 +22,4 @@ void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vecto
     }
     cout << apple << endl;
     cout << orange << endl;
-}
-
-int main() {
-
 }
